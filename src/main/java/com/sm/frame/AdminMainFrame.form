@@ -1,0 +1,1069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.sm.frame.AdminMainFrame">
+  <grid id="27dc6" class="com.sm.ui.ImgPanel" binding="rootPanel" layout-manager="GridLayoutManager" row-count="6" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="3338" height="1243"/>
+    </constraints>
+    <properties>
+      <background color="-6694410"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="38b1a" class="javax.swing.JButton" binding="院系管理Button" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="160" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="院系管理"/>
+        </properties>
+      </component>
+      <component id="d2ace" class="javax.swing.JButton" binding="班级管理Button" default-binding="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="160" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="班级管理"/>
+        </properties>
+      </component>
+      <component id="eada5" class="javax.swing.JButton" binding="学生管理Button" default-binding="true">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="160" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="学生管理"/>
+        </properties>
+      </component>
+      <grid id="15322" binding="centerPanel" layout-manager="CardLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="6" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="1c39" binding="departmentPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <card name="Card1"/>
+            </constraints>
+            <properties>
+              <foreground color="-5362673"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="746f3" binding="topPanel" layout-manager="GridLayoutManager" row-count="4" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="North"/>
+                <properties>
+                  <background color="-12085436"/>
+                  <preferredSize width="294" height="60"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="99d3a" class="javax.swing.JButton" binding="新增院系Button" default-binding="true">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="140" height="40"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="新增院系"/>
+                      <visible value="true"/>
+                    </properties>
+                  </component>
+                  <component id="c79b0" class="javax.swing.JButton" binding="刷新数据Button" default-binding="true">
+                    <constraints>
+                      <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="140" height="40"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="刷新数据"/>
+                    </properties>
+                  </component>
+                  <hspacer id="28204">
+                    <constraints>
+                      <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <vspacer id="d2c1">
+                    <constraints>
+                      <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                        <minimum-size width="8" height="8"/>
+                        <preferred-size width="8" height="8"/>
+                        <maximum-size width="8" height="8"/>
+                      </grid>
+                    </constraints>
+                  </vspacer>
+                  <vspacer id="3a9b4">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                        <minimum-size width="8" height="8"/>
+                        <preferred-size width="8" height="8"/>
+                        <maximum-size width="8" height="8"/>
+                      </grid>
+                    </constraints>
+                  </vspacer>
+                  <hspacer id="18c5d">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <minimum-size width="8" height="8"/>
+                        <preferred-size width="8" height="8"/>
+                        <maximum-size width="8" height="8"/>
+                      </grid>
+                    </constraints>
+                  </hspacer>
+                  <vspacer id="66179">
+                    <constraints>
+                      <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                        <minimum-size width="-1" height="6"/>
+                        <preferred-size width="-1" height="6"/>
+                        <maximum-size width="-1" height="6"/>
+                      </grid>
+                    </constraints>
+                  </vspacer>
+                </children>
+              </grid>
+              <grid id="879a3" binding="leftPanel" layout-manager="GridLayoutManager" row-count="10" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="West"/>
+                <properties>
+                  <background color="-986896"/>
+                  <visible value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="13b40" class="javax.swing.JTextField" binding="depNameField">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="160" height="40"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <selectedTextColor color="-4477254"/>
+                      <text value="输入院系名称"/>
+                      <visible value="false"/>
+                    </properties>
+                  </component>
+                  <component id="2368e" class="javax.swing.JButton" binding="新增Button" default-binding="true">
+                    <constraints>
+                      <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="新增"/>
+                    </properties>
+                  </component>
+                  <vspacer id="7fb3e">
+                    <constraints>
+                      <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                  </vspacer>
+                  <component id="c8b68" class="javax.swing.JLabel" binding="选择logo图Label">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="&lt;html&gt; &lt;img src='https://students-manage.oss-cn-beijing.aliyuncs.com/logo/add.jpg'/&gt; &lt;/html&gt;"/>
+                      <visible value="false"/>
+                    </properties>
+                  </component>
+                  <hspacer id="4586">
+                    <constraints>
+                      <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <vspacer id="b87b4">
+                    <constraints>
+                      <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <vspacer id="63fd6">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <vspacer id="b0a5c">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="79ecf" class="javax.swing.JLabel" binding="选择logoLabel">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="&lt;html&gt;&#10;&lt;img src='https://students-manage.oss-cn-beijing.aliyuncs.com/logo/add.jpg'/&gt;&#10;&lt;/html&gt;"/>
+                    </properties>
+                  </component>
+                  <component id="35e66" class="javax.swing.JLabel" binding="logoLabel">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <scrollpane id="61d3a" binding="scrollpane">
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="fa6cb" binding="contentPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                    <constraints/>
+                    <properties>
+                      <background color="-986123"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+          <grid id="9a1bd" binding="classPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <card name="Card2"/>
+            </constraints>
+            <properties>
+              <foreground color="-16664255"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="f5cbe" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="North"/>
+                <properties>
+                  <background color="-12085436"/>
+                  <preferredSize width="24" height="60"/>
+                  <visible value="true"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="c5276" class="javax.swing.JComboBox" binding="depComboBox">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="40"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <model>
+                        <item value="请选择院系"/>
+                      </model>
+                      <visible value="true"/>
+                    </properties>
+                  </component>
+                  <hspacer id="8928b">
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="3faa4" class="javax.swing.JTextField" binding="classField">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="270" height="40"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="请输入班级"/>
+                    </properties>
+                  </component>
+                  <component id="4e" class="javax.swing.JButton" binding="新增班级Button" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <minimum-size width="150" height="41"/>
+                        <preferred-size width="150" height="41"/>
+                        <maximum-size width="150" height="41"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="新增班级"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <splitpane id="4ba15">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <dividerLocation value="203"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="8c7b2" binding="treePanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <splitpane position="left"/>
+                    </constraints>
+                    <properties>
+                      <background color="-14447411"/>
+                      <requestFocusEnabled value="true"/>
+                      <visible value="true"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <scrollpane id="a8055">
+                    <constraints>
+                      <splitpane position="right"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <grid id="faa3a" binding="classContentPanel" layout-manager="FlowLayout" hgap="70" vgap="120" flow-align="1">
+                        <constraints/>
+                        <properties/>
+                        <border type="none"/>
+                        <children/>
+                      </grid>
+                    </children>
+                  </scrollpane>
+                </children>
+              </splitpane>
+            </children>
+          </grid>
+          <grid id="cf85a" binding="studentPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <card name="Card3"/>
+            </constraints>
+            <properties>
+              <foreground color="-37788"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="88fe8" binding="stuTopPanel" layout-manager="GridLayoutManager" row-count="1" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="North"/>
+                <properties>
+                  <background color="-12085436"/>
+                  <preferredSize width="766" height="60"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="2b2c" class="javax.swing.JComboBox" binding="comboBox1">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="1" use-parent-layout="false">
+                        <minimum-size width="150" height="40"/>
+                        <preferred-size width="150" height="40"/>
+                        <maximum-size width="150" height="40"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <alignmentX value="0.5"/>
+                      <model/>
+                      <name value=""/>
+                    </properties>
+                  </component>
+                  <hspacer id="79a23">
+                    <constraints>
+                      <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="9acc6" class="javax.swing.JComboBox" binding="comboBox2" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <minimum-size width="150" height="40"/>
+                        <preferred-size width="150" height="40"/>
+                        <maximum-size width="150" height="40"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <model/>
+                    </properties>
+                  </component>
+                  <component id="51914" class="javax.swing.JTextField" binding="searchField">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="270" height="40"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="请输入关键字"/>
+                    </properties>
+                  </component>
+                  <component id="c5b7a" class="javax.swing.JButton" binding="搜索Button" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <minimum-size width="130" height="40"/>
+                        <preferred-size width="130" height="40"/>
+                        <maximum-size width="130" height="40"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-9455296"/>
+                      <text value="搜索"/>
+                    </properties>
+                  </component>
+                  <component id="ddc61" class="javax.swing.JButton" binding="新增学生Button" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <minimum-size width="130" height="40"/>
+                        <preferred-size width="130" height="40"/>
+                        <maximum-size width="130" height="40"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-9455296"/>
+                      <text value="新增学生"/>
+                    </properties>
+                  </component>
+                  <component id="886bf" class="javax.swing.JButton" binding="批量导入Button" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <minimum-size width="130" height="40"/>
+                        <preferred-size width="130" height="40"/>
+                        <maximum-size width="130" height="40"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-9455296"/>
+                      <text value="批量导入"/>
+                    </properties>
+                  </component>
+                  <component id="ccf1b" class="javax.swing.JButton" binding="初始化数据Button" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <minimum-size width="130" height="40"/>
+                        <preferred-size width="130" height="40"/>
+                        <maximum-size width="130" height="40"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-9455296"/>
+                      <text value="初始化数据"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="7ca2c" class="com.sm.ui.ImgPanel" binding="infoPanel" layout-manager="GridLayoutManager" row-count="17" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="10">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="East"/>
+                <properties>
+                  <preferredSize width="500" height="640"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="f2589" class="javax.swing.JLabel" binding="stuAvatarLabel">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="&lt;html&gt;&#10;&lt;img src = 'https://students-manage.oss-cn-beijing.aliyuncs.com/logo/avatar.jpg'/&gt;&#10;&lt;/html&gt;"/>
+                    </properties>
+                  </component>
+                  <vspacer id="2246b">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="7" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                        <preferred-size width="30" height="30"/>
+                      </grid>
+                    </constraints>
+                  </vspacer>
+                  <hspacer id="20c55">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="7" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="1ff2b" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="4" column="1" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="26" style="1"/>
+                      <foreground color="-14343387"/>
+                      <text value="个 人 信 息"/>
+                    </properties>
+                  </component>
+                  <component id="1c9fa" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="学号："/>
+                    </properties>
+                  </component>
+                  <component id="3d624" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="院系："/>
+                    </properties>
+                  </component>
+                  <component id="e47e0" class="javax.swing.JLabel" binding="stuDepLabel">
+                    <constraints>
+                      <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="5dbe6" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="班级："/>
+                    </properties>
+                  </component>
+                  <component id="5ae92" class="javax.swing.JLabel" binding="stuClassLabel">
+                    <constraints>
+                      <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="9e14b" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="姓名："/>
+                    </properties>
+                  </component>
+                  <component id="9d687" class="javax.swing.JLabel" binding="stuNameLabel">
+                    <constraints>
+                      <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="3f027" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="性别："/>
+                    </properties>
+                  </component>
+                  <component id="1a648" class="javax.swing.JLabel" binding="stuGenderLabel">
+                    <constraints>
+                      <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="6228b" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="地址："/>
+                    </properties>
+                  </component>
+                  <component id="dd646" class="javax.swing.JTextField" binding="stuAddressField">
+                    <constraints>
+                      <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <enabled value="false"/>
+                    </properties>
+                  </component>
+                  <component id="68367" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="手机号码："/>
+                    </properties>
+                  </component>
+                  <component id="a4c69" class="javax.swing.JTextField" binding="stuPhoneField">
+                    <constraints>
+                      <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <enabled value="false"/>
+                    </properties>
+                  </component>
+                  <component id="11a4e" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="出生日期："/>
+                    </properties>
+                  </component>
+                  <component id="30cf8" class="javax.swing.JLabel" binding="stuBirthLabel">
+                    <constraints>
+                      <grid row="13" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="43575" class="javax.swing.JButton" binding="编辑Button" default-binding="true">
+                    <constraints>
+                      <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="110" height="40"/>
+                        <preferred-size width="110" height="40"/>
+                        <maximum-size width="110" height="40"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-9455296"/>
+                      <text value="编辑"/>
+                    </properties>
+                  </component>
+                  <component id="a31ff" class="javax.swing.JLabel" binding="stuIdLabel">
+                    <constraints>
+                      <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="14" style="0"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <hspacer id="23dfc">
+                    <constraints>
+                      <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <hspacer id="f0cc6">
+                    <constraints>
+                      <grid row="9" column="8" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <vspacer id="c62d2">
+                    <constraints>
+                      <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <vspacer id="f380e">
+                    <constraints>
+                      <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <vspacer id="ca5d1">
+                    <constraints>
+                      <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                        <minimum-size width="-1" height="7"/>
+                        <preferred-size width="-1" height="7"/>
+                        <maximum-size width="-1" height="7"/>
+                      </grid>
+                    </constraints>
+                  </vspacer>
+                  <vspacer id="5606c">
+                    <constraints>
+                      <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                        <minimum-size width="-1" height="5"/>
+                        <preferred-size width="-1" height="5"/>
+                        <maximum-size width="-1" height="5"/>
+                      </grid>
+                    </constraints>
+                  </vspacer>
+                </children>
+              </grid>
+              <grid id="bd202" binding="tablePanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+          <grid id="53c0b" binding="rewardPunishPanel" layout-manager="GridLayoutManager" row-count="4" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card4"/>
+            </constraints>
+            <properties>
+              <foreground color="-986896"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="7170e" class="javax.swing.JButton" binding="首页Button" default-binding="true">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="110" height="40"/>
+                    <preferred-size width="110" height="40"/>
+                    <maximum-size width="110" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-9393884"/>
+                  <text value="首页"/>
+                </properties>
+              </component>
+              <hspacer id="e71e3">
+                <constraints>
+                  <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <grid id="ad8a5" binding="zongPanel" layout-manager="CardLayout" hgap="0" vgap="0">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="8" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1311247"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="9a491" binding="headPanel" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <card name="Card11"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2627612"/>
+                      <enabled value="false"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="bf0aa" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="36" style="1"/>
+                          <text value="奖惩制度"/>
+                        </properties>
+                      </component>
+                      <vspacer id="a6506">
+                        <constraints>
+                          <grid row="1" column="1" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                      <scrollpane id="1bbe4">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="1400" height="780"/>
+                            <preferred-size width="1400" height="780"/>
+                            <maximum-size width="1400" height="780"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <verticalScrollBarPolicy value="22"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="4e34a" class="javax.swing.JTextArea" binding="ruleTextArea">
+                            <constraints/>
+                            <properties>
+                              <autoscrolls value="true"/>
+                              <font size="22"/>
+                              <lineWrap value="true"/>
+                              <tabSize value="10"/>
+                              <text value="&#9;学院设有完善的奖助学金和勤工俭学制度，主要有国家奖学金、国家助学金、校内奖学金等形式。其中国家奖学金8000元/生. 年，国家助学金2000元/生.年，黄 炎培奖学金（一等3000元/生.年， 二等2000元/生.年，三等1000元/生. 年）。对经济确有困难的学生， 学院优先安排勤工俭学岗位，并 通过助学贷款、部分减免等形式 帮助其完成学业&#10;&#9;学生违反校规校纪，根据情节轻重、认错态度、悔改表现等，给予下列处分：（一）警告；（二）严重警告；（三）记过；（四）留校察看；（五）开除学籍。&#10;&#9;对违纪情节轻微，尚不足按本规定处分者，给予口头批评教育、通报批评或责令经济赔偿等。&#10;&#9;留校察看期一般为一年，对毕业班学生的留校察看处分期限可为半年。&#10;留校察看期间表现较好的，期满后终止察看；表现特别好的，可提前终止察看，但察看期不得少于三个月；留校察看期间表现不好的可延长察看期，一般延长半年，毕业班学生可延长三个月，但以延长一次为限；表现仍差的开除学籍。&#10;&#9;对于受处分的学生，受处分期间，取消其奖学金以及各类先进称号的评定资格；对于受留校察看处分的学生，取消其在终止察看后半年内的奖学金以及各类先进称号的评定资格。&#10;&#9;违反学校规定，严重影响学校教学秩序、生活秩序或社会公共秩序者，除承担相应的法律责任、经济责任外，按下列规定给予处分：&#10;（一）在校园内书写、张贴、散发反对党的基本路线、方针及政策，反对国家政权的标语、漫画、传单、条幅、光盘等以及组织非法集会游行、煽动闹事和散布危害国家安全言论及谣言的，视情节轻重给予相应处分。&#10;（二）在校园内进行棋牌类活动影响他人休息经教育不改者，给予警告处分；参与赌博或为赌博提供条件的给予严重警告处分；发起或参与赌博两次以上的，给予记过以上处分。&#10;（三）在校内乱扔、乱砸物品，破坏公共财物的，给予记过以下处分，情节严重或不听劝阻的，给予记过以上处分。&#10;（四）在校园内乱涂乱画的，给予警告处分；在校园内张贴或发布内容淫秽、造谣惑众、侮辱他人人格、损害学校声誉的大小字报或宣传品的，给予严重警告以上处分。&#10;（五）无视作息制度，在校内高声喧闹不听劝阻，妨碍他人正常学习、工作、生活，扰乱校园正常秩序的，给予警告以上处分。&#10;（六）打架斗殴的，给予警告或严重警告处分，情节严重的给予记过以上处分；群体性斗殴的主要成员以及蓄意蛊惑他人、扩大事态或持械斗殴造成伤害的，给予开除学籍处分。&#10;（七）侮辱妇女或有骚扰滋事的流氓行为的，给予记过以上处分。&#10;（八）威胁、恐吓他人，给他人造成精神损害的，给予警告或者严重警告处分。&#10;（九）制作、销售、出租、携带、观看、放映、散布淫秽或有严重政治问题的录像、磁盘、光盘、书画等物品的，给予严重警告以上处分。&#10;（十）转借学生证、图书证、校园一卡通等有效证件给他人使用，或盗用、冒用他人有效证件再次被发现者，给予警告处分，造成后果的，给予严重警告以上处分；伪造、变造学生有效证件者，给予警告处分，造成严重后果的，给予严重警告以上处分。&#10;（十一）在学生宿舍（公寓）内留宿校外人员或将学生宿舍（公寓）、床位转借、转租他人的，给予警告处分；造成后果的，给予严重警告以上处分。擅自调换学生宿舍（公寓）或者床位，不听劝阻者，给予警告处分。&#10;（十二）擅自改变学生宿舍（公寓）结构或者修改门卡设置，调换门锁的，给予警告处分；情节严重的，给予严重警告以上处分。&#10;（十三）在学生宿舍（公寓）内饲养宠物并不听劝阻的，给予警告处分。&#10;（十四）违反学校有关选举、推荐规定和程序，不听劝阻者，给予警告以上处分。&#10;（十五）参与非法传销和进行邪教、封建迷信活动以及在校园内进行传教或宗教活动，经教育不悔改的，给予严重警告以上处分。"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <scrollpane id="5bcb8">
+                    <constraints>
+                      <card name="Card22"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <grid id="36fba" binding="rpPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+                        <constraints/>
+                        <properties/>
+                        <border type="none"/>
+                        <children/>
+                      </grid>
+                    </children>
+                  </scrollpane>
+                  <grid id="32482" class="com.sm.ui.ImgPanel" binding="addRewPanel" layout-manager="GridLayoutManager" row-count="8" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="25" vgap="25">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <card name="Card44"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="4b0ef" class="javax.swing.JComboBox" binding="rewIdComboBox">
+                        <constraints>
+                          <grid row="2" column="2" row-span="1" col-span="7" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="340" height="50"/>
+                            <preferred-size width="340" height="50"/>
+                            <maximum-size width="340" height="50"/>
+                          </grid>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="3939c" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="学号："/>
+                        </properties>
+                      </component>
+                      <component id="68660" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="事件："/>
+                        </properties>
+                      </component>
+                      <component id="8ae19" class="javax.swing.JComboBox" binding="rewEventComboBox">
+                        <constraints>
+                          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="340" height="50"/>
+                            <preferred-size width="340" height="50"/>
+                            <maximum-size width="340" height="50"/>
+                          </grid>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="3595a" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="奖项："/>
+                        </properties>
+                      </component>
+                      <component id="aa333" class="javax.swing.JComboBox" binding="rewRankComboBox">
+                        <constraints>
+                          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="340" height="50"/>
+                            <preferred-size width="340" height="50"/>
+                            <maximum-size width="340" height="50"/>
+                          </grid>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="d48f8" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="日期"/>
+                        </properties>
+                      </component>
+                      <grid id="4ad4b" binding="timePanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                        <constraints>
+                          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <minimum-size width="340" height="50"/>
+                            <preferred-size width="340" height="50"/>
+                            <maximum-size width="340" height="50"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-1311247"/>
+                        </properties>
+                        <border type="none"/>
+                        <children/>
+                      </grid>
+                      <hspacer id="fb01f">
+                        <constraints>
+                          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </hspacer>
+                      <hspacer id="e51ac">
+                        <constraints>
+                          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </hspacer>
+                      <vspacer id="f9e77">
+                        <constraints>
+                          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                      <component id="ca6be" class="javax.swing.JButton" binding="确认新增Button" default-binding="true">
+                        <constraints>
+                          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="135" height="45"/>
+                            <preferred-size width="135" height="45"/>
+                            <maximum-size width="135" height="45"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-9455296"/>
+                          <text value="确认新增"/>
+                        </properties>
+                      </component>
+                      <vspacer id="35386">
+                        <constraints>
+                          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                            <minimum-size width="-1" height="145"/>
+                            <preferred-size width="-1" height="145"/>
+                            <maximum-size width="-1" height="145"/>
+                          </grid>
+                        </constraints>
+                      </vspacer>
+                      <component id="e5b90" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="28" style="1"/>
+                          <text value="新增信息"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <component id="69442" class="javax.swing.JButton" binding="奖惩情况Button">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="110" height="40"/>
+                    <preferred-size width="110" height="40"/>
+                    <maximum-size width="110" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-9393884"/>
+                  <text value="奖惩情况"/>
+                </properties>
+              </component>
+              <component id="939ed" class="javax.swing.JButton" binding="新增奖惩Button">
+                <constraints>
+                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="110" height="40"/>
+                    <preferred-size width="110" height="40"/>
+                    <maximum-size width="110" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-9393884"/>
+                  <text value="新增奖惩"/>
+                </properties>
+              </component>
+              <vspacer id="1bd18">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="20"/>
+                  </grid>
+                </constraints>
+              </vspacer>
+              <component id="4578f" class="javax.swing.JTextField" binding="findTextField">
+                <constraints>
+                  <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="270" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="请输入关键字"/>
+                </properties>
+              </component>
+              <component id="7dcc1" class="javax.swing.JButton" binding="搜索Btn">
+                <constraints>
+                  <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-9393884"/>
+                  <text value="搜索"/>
+                </properties>
+              </component>
+              <vspacer id="d8a62">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <minimum-size width="-1" height="10"/>
+                    <preferred-size width="-1" height="10"/>
+                    <maximum-size width="-1" height="10"/>
+                  </grid>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <hspacer id="e1700">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="70" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <component id="564c1" class="javax.swing.JLabel" binding="adminNameLabel">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="22" style="1"/>
+          <foreground color="-15060480"/>
+          <text value="管理员"/>
+        </properties>
+      </component>
+      <component id="c4327" class="javax.swing.JLabel" binding="Label1">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <foreground color="-12828863"/>
+          <text value="当前时间："/>
+        </properties>
+      </component>
+      <component id="8d8d3" class="javax.swing.JButton" binding="奖惩管理Button" default-binding="true">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="160" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="奖惩管理"/>
+        </properties>
+      </component>
+      <component id="74db7" class="javax.swing.JLabel" binding="timeLabel">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20" style="1"/>
+          <foreground color="-12828863"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <hspacer id="d8009">
+        <constraints>
+          <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="60" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <vspacer id="950d7">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="10"/>
+            <preferred-size width="10" height="10"/>
+            <maximum-size width="10" height="10"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <vspacer id="cca6c">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="10"/>
+            <preferred-size width="10" height="10"/>
+            <maximum-size width="10" height="10"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <vspacer id="a59a9">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
